@@ -1,0 +1,6 @@
+[[34m2025-04-13 10:43:33[0m] Experiment directory created at checkpoints/063-DiT-XL-2
+[[34m2025-04-13 10:43:33[0m] INFO:: batch_size=7168,debug=False,pre_latent=True, world_size=1024, dp_size=1024, tp_size=1.
+[[34m2025-04-13 10:43:56[0m] model init
+[[34m2025-04-13 10:44:46[0m] DDP init
+[[34m2025-04-13 10:51:54[0m] DiT Parameters: 675,129,632
+[[34m2025-04-13 10:51:54[0m] Dataset contains 309,180 images (/pacific_ext/wxy/DiT_dataset/imagenet-all-latents)

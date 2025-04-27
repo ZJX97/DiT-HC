@@ -1,0 +1,49 @@
+[[34m2025-04-13 12:28:26[0m] Experiment directory created at checkpoints/070-DiT-S-2
+[[34m2025-04-13 12:28:26[0m] INFO:: batch_size=3584,debug=False,pre_latent=True, world_size=512, dp_size=512, tp_size=1.
+[[34m2025-04-13 12:28:27[0m] model init
+[[34m2025-04-13 12:28:40[0m] DDP init
+[[34m2025-04-13 12:32:14[0m] DiT Parameters: 32,963,360
+[[34m2025-04-13 12:32:14[0m] Dataset contains 309,180 images (/pacific_ext/wxy/DiT_dataset/imagenet-all-latents)
+[[34m2025-04-13 12:32:14[0m] Training for 500 epochs...
+[[34m2025-04-13 12:32:14[0m] Beginning epoch 0...
+[[34m2025-04-13 12:33:04[0m] (step=0000005) Train Loss: 1.0045, Train Sec/Steps:10.18s, Steps/Sec: 0.10
+[[34m2025-04-13 12:33:27[0m] (step=0000010) Train Loss: 0.9705, Train Sec/Steps:4.56s, Steps/Sec: 0.22
+[[34m2025-04-13 12:33:50[0m] (step=0000015) Train Loss: 0.9266, Train Sec/Steps:4.54s, Steps/Sec: 0.22
+[[34m2025-04-13 12:34:13[0m] (step=0000020) Train Loss: 0.8583, Train Sec/Steps:4.66s, Steps/Sec: 0.21
+[[34m2025-04-13 12:34:37[0m] (step=0000025) Train Loss: 0.7690, Train Sec/Steps:4.66s, Steps/Sec: 0.21
+[[34m2025-04-13 12:35:00[0m] (step=0000030) Train Loss: 0.6551, Train Sec/Steps:4.56s, Steps/Sec: 0.22
+[[34m2025-04-13 12:35:22[0m] (step=0000035) Train Loss: 0.5448, Train Sec/Steps:4.54s, Steps/Sec: 0.22
+[[34m2025-04-13 12:35:45[0m] (step=0000040) Train Loss: 0.4562, Train Sec/Steps:4.64s, Steps/Sec: 0.22
+[[34m2025-04-13 12:36:08[0m] (step=0000045) Train Loss: 0.3689, Train Sec/Steps:4.58s, Steps/Sec: 0.22
+[[34m2025-04-13 12:36:31[0m] (step=0000050) Train Loss: 0.3020, Train Sec/Steps:4.56s, Steps/Sec: 0.22
+[[34m2025-04-13 12:36:54[0m] (step=0000055) Train Loss: 0.2644, Train Sec/Steps:4.58s, Steps/Sec: 0.22
+[[34m2025-04-13 12:37:17[0m] (step=0000060) Train Loss: 0.2581, Train Sec/Steps:4.57s, Steps/Sec: 0.22
+[[34m2025-04-13 12:37:40[0m] (step=0000065) Train Loss: 0.2460, Train Sec/Steps:4.57s, Steps/Sec: 0.22
+[[34m2025-04-13 12:38:03[0m] (step=0000070) Train Loss: 0.2381, Train Sec/Steps:4.55s, Steps/Sec: 0.22
+[[34m2025-04-13 12:38:26[0m] (step=0000075) Train Loss: 0.2369, Train Sec/Steps:4.58s, Steps/Sec: 0.22
+[[34m2025-04-13 12:38:49[0m] (step=0000080) Train Loss: 0.2301, Train Sec/Steps:4.58s, Steps/Sec: 0.22
+[[34m2025-04-13 12:39:11[0m] (step=0000085) Train Loss: 0.2359, Train Sec/Steps:4.55s, Steps/Sec: 0.22
+[[34m2025-04-13 12:39:16[0m] Beginning epoch 1...
+[[34m2025-04-13 12:39:50[0m] (step=0000090) Train Loss: 0.2247, Train Sec/Steps:7.71s, Steps/Sec: 0.13
+[[34m2025-04-13 12:40:13[0m] (step=0000095) Train Loss: 0.2191, Train Sec/Steps:4.56s, Steps/Sec: 0.22
+[[34m2025-04-13 12:40:36[0m] (step=0000100) Train Loss: 0.2154, Train Sec/Steps:4.57s, Steps/Sec: 0.22
+[[34m2025-04-13 12:40:38[0m] Saved checkpoint to checkpoints/070-DiT-S-2/checkpoints/0000100.pt
+[[34m2025-04-13 12:41:20[0m] (step=0000105) Train Loss: 0.2232, Train Sec/Steps:8.96s, Steps/Sec: 0.11
+[[34m2025-04-13 12:41:43[0m] (step=0000110) Train Loss: 0.2173, Train Sec/Steps:4.58s, Steps/Sec: 0.22
+[[34m2025-04-13 12:42:06[0m] (step=0000115) Train Loss: 0.2140, Train Sec/Steps:4.56s, Steps/Sec: 0.22
+[[34m2025-04-13 12:42:29[0m] (step=0000120) Train Loss: 0.2134, Train Sec/Steps:4.56s, Steps/Sec: 0.22
+[[34m2025-04-13 12:42:52[0m] (step=0000125) Train Loss: 0.2130, Train Sec/Steps:4.58s, Steps/Sec: 0.22
+[[34m2025-04-13 12:43:15[0m] (step=0000130) Train Loss: 0.2099, Train Sec/Steps:4.53s, Steps/Sec: 0.22
+[[34m2025-04-13 12:43:37[0m] (step=0000135) Train Loss: 0.2095, Train Sec/Steps:4.53s, Steps/Sec: 0.22
+[[34m2025-04-13 12:44:00[0m] (step=0000140) Train Loss: 0.2082, Train Sec/Steps:4.55s, Steps/Sec: 0.22
+[[34m2025-04-13 12:44:23[0m] (step=0000145) Train Loss: 0.2110, Train Sec/Steps:4.57s, Steps/Sec: 0.22
+[[34m2025-04-13 12:44:46[0m] (step=0000150) Train Loss: 0.2084, Train Sec/Steps:4.55s, Steps/Sec: 0.22
+[[34m2025-04-13 12:45:09[0m] (step=0000155) Train Loss: 0.2065, Train Sec/Steps:4.58s, Steps/Sec: 0.22
+[[34m2025-04-13 12:45:32[0m] (step=0000160) Train Loss: 0.2079, Train Sec/Steps:4.58s, Steps/Sec: 0.22
+[[34m2025-04-13 12:45:54[0m] (step=0000165) Train Loss: 0.2055, Train Sec/Steps:4.50s, Steps/Sec: 0.22
+[[34m2025-04-13 12:46:17[0m] (step=0000170) Train Loss: 0.2093, Train Sec/Steps:4.53s, Steps/Sec: 0.22
+[[34m2025-04-13 12:46:26[0m] Beginning epoch 2...
+[[34m2025-04-13 12:46:56[0m] (step=0000175) Train Loss: 0.2082, Train Sec/Steps:7.82s, Steps/Sec: 0.13
+[[34m2025-04-13 12:47:19[0m] (step=0000180) Train Loss: 0.2053, Train Sec/Steps:4.57s, Steps/Sec: 0.22
+[[34m2025-04-13 12:47:42[0m] (step=0000185) Train Loss: 0.2064, Train Sec/Steps:4.59s, Steps/Sec: 0.22
+[[34m2025-04-13 12:48:05[0m] (step=0000190) Train Loss: 0.2052, Train Sec/Steps:4.57s, Steps/Sec: 0.22

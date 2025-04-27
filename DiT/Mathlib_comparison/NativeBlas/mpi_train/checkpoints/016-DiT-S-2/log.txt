@@ -1,0 +1,52 @@
+[[34m2025-04-09 14:15:15[0m] Experiment directory created at checkpoints/016-DiT-S-2
+[[34m2025-04-09 14:15:15[0m] INFO:: batch_size=28,debug=False,pre_latent=True, world_size=4, dp_size=4, tp_size=1.
+[[34m2025-04-09 14:15:17[0m] DiT Parameters: 32,963,360
+[[34m2025-04-09 14:15:17[0m] Dataset contains 2,500 images (/pacific_ext/wxy/DiT_dataset/imagenet-mini-latents)
+[[34m2025-04-09 14:15:17[0m] Training for 500 epochs...
+[[34m2025-04-09 14:15:17[0m] Beginning epoch 0...
+[[34m2025-04-09 14:15:28[0m] (step=0000001) Train Loss: 1.0310, Train Sec/Steps:10.45s, Steps/Sec: 0.10
+[[34m2025-04-09 14:15:37[0m] (step=0000002) Train Loss: 1.0122, Train Sec/Steps:9.11s, Steps/Sec: 0.11
+[[34m2025-04-09 14:15:46[0m] (step=0000003) Train Loss: 0.9988, Train Sec/Steps:9.32s, Steps/Sec: 0.11
+[[34m2025-04-09 14:15:55[0m] (step=0000004) Train Loss: 0.9941, Train Sec/Steps:9.06s, Steps/Sec: 0.11
+[[34m2025-04-09 14:16:04[0m] (step=0000005) Train Loss: 0.9876, Train Sec/Steps:9.02s, Steps/Sec: 0.11
+[[34m2025-04-09 14:16:13[0m] (step=0000006) Train Loss: 0.9858, Train Sec/Steps:8.98s, Steps/Sec: 0.11
+[[34m2025-04-09 14:16:22[0m] (step=0000007) Train Loss: 0.9799, Train Sec/Steps:8.99s, Steps/Sec: 0.11
+[[34m2025-04-09 14:16:31[0m] (step=0000008) Train Loss: nan, Train Sec/Steps:9.03s, Steps/Sec: 0.11
+[[34m2025-04-09 14:16:40[0m] (step=0000009) Train Loss: nan, Train Sec/Steps:8.97s, Steps/Sec: 0.11
+[[34m2025-04-09 14:16:49[0m] (step=0000010) Train Loss: nan, Train Sec/Steps:8.88s, Steps/Sec: 0.11
+[[34m2025-04-09 14:16:58[0m] (step=0000011) Train Loss: nan, Train Sec/Steps:9.01s, Steps/Sec: 0.11
+[[34m2025-04-09 14:17:07[0m] (step=0000012) Train Loss: nan, Train Sec/Steps:9.00s, Steps/Sec: 0.11
+[[34m2025-04-09 14:17:16[0m] (step=0000013) Train Loss: nan, Train Sec/Steps:8.96s, Steps/Sec: 0.11
+[[34m2025-04-09 14:17:25[0m] (step=0000014) Train Loss: nan, Train Sec/Steps:9.03s, Steps/Sec: 0.11
+[[34m2025-04-09 14:17:34[0m] (step=0000015) Train Loss: nan, Train Sec/Steps:8.97s, Steps/Sec: 0.11
+[[34m2025-04-09 14:17:43[0m] (step=0000016) Train Loss: nan, Train Sec/Steps:8.90s, Steps/Sec: 0.11
+[[34m2025-04-09 14:17:52[0m] (step=0000017) Train Loss: nan, Train Sec/Steps:8.96s, Steps/Sec: 0.11
+[[34m2025-04-09 14:18:01[0m] (step=0000018) Train Loss: nan, Train Sec/Steps:8.91s, Steps/Sec: 0.11
+[[34m2025-04-09 14:18:10[0m] (step=0000019) Train Loss: nan, Train Sec/Steps:8.94s, Steps/Sec: 0.11
+[[34m2025-04-09 14:18:19[0m] (step=0000020) Train Loss: nan, Train Sec/Steps:8.92s, Steps/Sec: 0.11
+[[34m2025-04-09 14:18:28[0m] (step=0000021) Train Loss: nan, Train Sec/Steps:8.95s, Steps/Sec: 0.11
+[[34m2025-04-09 14:18:37[0m] (step=0000022) Train Loss: nan, Train Sec/Steps:8.93s, Steps/Sec: 0.11
+[[34m2025-04-09 14:18:46[0m] (step=0000023) Train Loss: nan, Train Sec/Steps:9.00s, Steps/Sec: 0.11
+[[34m2025-04-09 14:18:55[0m] (step=0000024) Train Loss: nan, Train Sec/Steps:8.93s, Steps/Sec: 0.11
+[[34m2025-04-09 14:19:03[0m] (step=0000025) Train Loss: nan, Train Sec/Steps:8.98s, Steps/Sec: 0.11
+[[34m2025-04-09 14:19:12[0m] (step=0000026) Train Loss: nan, Train Sec/Steps:8.95s, Steps/Sec: 0.11
+[[34m2025-04-09 14:19:21[0m] (step=0000027) Train Loss: nan, Train Sec/Steps:8.89s, Steps/Sec: 0.11
+[[34m2025-04-09 14:19:30[0m] (step=0000028) Train Loss: nan, Train Sec/Steps:8.92s, Steps/Sec: 0.11
+[[34m2025-04-09 14:19:39[0m] (step=0000029) Train Loss: nan, Train Sec/Steps:8.86s, Steps/Sec: 0.11
+[[34m2025-04-09 14:19:48[0m] (step=0000030) Train Loss: nan, Train Sec/Steps:9.01s, Steps/Sec: 0.11
+[[34m2025-04-09 14:19:57[0m] (step=0000031) Train Loss: nan, Train Sec/Steps:9.00s, Steps/Sec: 0.11
+[[34m2025-04-09 14:20:06[0m] (step=0000032) Train Loss: nan, Train Sec/Steps:9.03s, Steps/Sec: 0.11
+[[34m2025-04-09 14:20:15[0m] (step=0000033) Train Loss: nan, Train Sec/Steps:8.97s, Steps/Sec: 0.11
+[[34m2025-04-09 14:20:24[0m] (step=0000034) Train Loss: nan, Train Sec/Steps:9.14s, Steps/Sec: 0.11
+[[34m2025-04-09 14:20:33[0m] (step=0000035) Train Loss: nan, Train Sec/Steps:8.96s, Steps/Sec: 0.11
+[[34m2025-04-09 14:20:42[0m] (step=0000036) Train Loss: nan, Train Sec/Steps:8.91s, Steps/Sec: 0.11
+[[34m2025-04-09 14:20:51[0m] (step=0000037) Train Loss: nan, Train Sec/Steps:8.92s, Steps/Sec: 0.11
+[[34m2025-04-09 14:21:00[0m] (step=0000038) Train Loss: nan, Train Sec/Steps:8.96s, Steps/Sec: 0.11
+[[34m2025-04-09 14:21:09[0m] (step=0000039) Train Loss: nan, Train Sec/Steps:8.98s, Steps/Sec: 0.11
+[[34m2025-04-09 14:21:18[0m] (step=0000040) Train Loss: nan, Train Sec/Steps:8.95s, Steps/Sec: 0.11
+[[34m2025-04-09 14:21:27[0m] (step=0000041) Train Loss: nan, Train Sec/Steps:8.99s, Steps/Sec: 0.11
+[[34m2025-04-09 14:21:36[0m] (step=0000042) Train Loss: nan, Train Sec/Steps:8.92s, Steps/Sec: 0.11
+[[34m2025-04-09 14:21:45[0m] (step=0000043) Train Loss: nan, Train Sec/Steps:8.96s, Steps/Sec: 0.11
+[[34m2025-04-09 14:21:54[0m] (step=0000044) Train Loss: nan, Train Sec/Steps:9.39s, Steps/Sec: 0.11
+[[34m2025-04-09 14:22:03[0m] (step=0000045) Train Loss: nan, Train Sec/Steps:8.96s, Steps/Sec: 0.11
+[[34m2025-04-09 14:22:12[0m] (step=0000046) Train Loss: nan, Train Sec/Steps:8.98s, Steps/Sec: 0.11

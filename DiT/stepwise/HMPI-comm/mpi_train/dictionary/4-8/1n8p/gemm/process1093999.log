@@ -1,0 +1,933 @@
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasNoTrans
+M: 72
+K: 256
+N: 256
+lda: 3456
+ldb: 256
+ldc: 72
+alpha: 1.000000
+beta: 0.000000
+call times: 43008
+Total flop: 405874409472
+Time elapsed arithmetic: 8003.92ms
+Minimal GFlops arithmetic: 0.500933
+Maximal GFlops arithmetic: 88.081911
+GFlops arithmetic: 50.709449
+MFU(core) arithmetic: 19.808379%
+MFU(numa) arithmetic: 0.521273%
+MFU(node) arithmetic: 0.032580%
+Time_elapsed geometric: 1179.98ms
+GFlops geometric: 343.966174
+MFU(core) geometric: 134.361787%
+MFU(numa) geometric: 3.535836%
+MFU(node) geometric: 0.220990%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasNoTrans
+M: 72
+K: 256
+N: 256
+lda: 3456
+ldb: 256
+ldc: 1152
+alpha: 0.117851
+beta: 1.000000
+call times: 43008
+Total flop: 405874409472
+Time elapsed arithmetic: 11047.07ms
+Minimal GFlops arithmetic: 8.179574
+Maximal GFlops arithmetic: 85.714659
+GFlops arithmetic: 36.740456
+MFU(core) arithmetic: 14.351741%
+MFU(numa) arithmetic: 0.377677%
+MFU(node) arithmetic: 0.023605%
+Time_elapsed geometric: 1647.68ms
+GFlops geometric: 246.331175
+MFU(core) geometric: 96.223115%
+MFU(numa) geometric: 2.532187%
+MFU(node) geometric: 0.158262%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasNoTrans
+M: 256
+K: 1152
+N: 8
+lda: 256
+ldb: 1152
+ldc: 256
+alpha: 1.000000
+beta: 1.000000
+call times: 12
+Total flop: 56623104
+Time elapsed arithmetic: 60.38ms
+Minimal GFlops arithmetic: 0.263181
+Maximal GFlops arithmetic: 2.478622
+GFlops arithmetic: 0.937725
+MFU(core) arithmetic: 0.366299%
+MFU(numa) arithmetic: 0.009639%
+MFU(node) arithmetic: 0.000602%
+Time_elapsed geometric: 31.72ms
+GFlops geometric: 1.785352
+MFU(core) geometric: 0.697403%
+MFU(numa) geometric: 0.018353%
+MFU(node) geometric: 0.001147%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasNoTrans
+M: 1152
+K: 32
+N: 2048
+lda: 1152
+ldb: 32
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 12
+Total flop: 1811939328
+Time elapsed arithmetic: 43.84ms
+Minimal GFlops arithmetic: 23.736447
+Maximal GFlops arithmetic: 66.406753
+GFlops arithmetic: 41.332316
+MFU(core) arithmetic: 16.145436%
+MFU(numa) arithmetic: 0.424880%
+MFU(node) arithmetic: 0.026555%
+Time_elapsed geometric: 25.89ms
+GFlops geometric: 69.986418
+MFU(core) geometric: 27.338444%
+MFU(numa) geometric: 0.719433%
+MFU(node) geometric: 0.044965%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasNoTrans
+M: 1152
+K: 1152
+N: 8
+lda: 1152
+ldb: 1152
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 12
+Total flop: 254803968
+Time elapsed arithmetic: 65.32ms
+Minimal GFlops arithmetic: 1.100765
+Maximal GFlops arithmetic: 12.366759
+GFlops arithmetic: 3.900629
+MFU(core) arithmetic: 1.523683%
+MFU(numa) arithmetic: 0.040097%
+MFU(node) arithmetic: 0.002506%
+Time_elapsed geometric: 34.15ms
+GFlops geometric: 7.461553
+MFU(core) geometric: 2.914669%
+MFU(numa) geometric: 0.076702%
+MFU(node) geometric: 0.004794%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasNoTrans
+M: 1152
+K: 1152
+N: 2048
+lda: 1152
+ldb: 1152
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 336
+Total flop: 1826434842624
+Time elapsed arithmetic: 2890.43ms
+Minimal GFlops arithmetic: 220.485008
+Maximal GFlops arithmetic: 1117.281024
+GFlops arithmetic: 631.890335
+MFU(core) arithmetic: 246.832162%
+MFU(numa) arithmetic: 6.495583%
+MFU(node) arithmetic: 0.405974%
+Time_elapsed geometric: 1718.56ms
+GFlops geometric: 1062.773571
+MFU(core) geometric: 415.145926%
+MFU(numa) geometric: 10.924893%
+MFU(node) geometric: 0.682806%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasNoTrans
+M: 1152
+K: 2304
+N: 8
+lda: 1152
+ldb: 2304
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 12
+Total flop: 509607936
+Time elapsed arithmetic: 51.36ms
+Minimal GFlops arithmetic: 6.217076
+Maximal GFlops arithmetic: 18.128296
+GFlops arithmetic: 9.922159
+MFU(core) arithmetic: 3.875843%
+MFU(numa) arithmetic: 0.101996%
+MFU(node) arithmetic: 0.006375%
+Time_elapsed geometric: 30.70ms
+GFlops geometric: 16.597281
+MFU(core) geometric: 6.483313%
+MFU(numa) geometric: 0.170613%
+MFU(node) geometric: 0.010663%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasNoTrans
+M: 1152
+K: 3456
+N: 2048
+lda: 1152
+ldb: 3456
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 336
+Total flop: 5479304527872
+Time elapsed arithmetic: 6215.35ms
+Minimal GFlops arithmetic: 479.854554
+Maximal GFlops arithmetic: 1242.731360
+GFlops arithmetic: 881.576215
+MFU(core) arithmetic: 344.365709%
+MFU(numa) arithmetic: 9.062256%
+MFU(node) arithmetic: 0.566391%
+Time_elapsed geometric: 3652.41ms
+GFlops geometric: 1500.189010
+MFU(core) geometric: 586.011332%
+MFU(numa) geometric: 15.421351%
+MFU(node) geometric: 0.963834%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasNoTrans
+M: 1152
+K: 4608
+N: 2048
+lda: 1152
+ldb: 4608
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 336
+Total flop: 7305739370496
+Time elapsed arithmetic: 8910.70ms
+Minimal GFlops arithmetic: 479.595678
+Maximal GFlops arithmetic: 1103.362503
+GFlops arithmetic: 819.884216
+MFU(core) arithmetic: 320.267272%
+MFU(numa) arithmetic: 8.428086%
+MFU(node) arithmetic: 0.526755%
+Time_elapsed geometric: 5185.01ms
+GFlops geometric: 1409.010919
+MFU(core) geometric: 550.394890%
+MFU(numa) geometric: 14.484076%
+MFU(node) geometric: 0.905255%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasNoTrans
+M: 1152
+K: 6912
+N: 8
+lda: 1152
+ldb: 6912
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 336
+Total flop: 42807066624
+Time elapsed arithmetic: 1854.34ms
+Minimal GFlops arithmetic: 9.479350
+Maximal GFlops arithmetic: 48.523146
+GFlops arithmetic: 23.084806
+MFU(core) arithmetic: 9.017502%
+MFU(numa) arithmetic: 0.237303%
+MFU(node) arithmetic: 0.014831%
+Time_elapsed geometric: 1086.61ms
+GFlops geometric: 39.395052
+MFU(core) geometric: 15.388692%
+MFU(numa) geometric: 0.404966%
+MFU(node) geometric: 0.025310%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasNoTrans
+M: 4608
+K: 1152
+N: 2048
+lda: 4608
+ldb: 1152
+ldc: 4608
+alpha: 1.000000
+beta: 1.000000
+call times: 336
+Total flop: 7305739370496
+Time elapsed arithmetic: 4123.71ms
+Minimal GFlops arithmetic: 582.491081
+Maximal GFlops arithmetic: 3141.134908
+GFlops arithmetic: 1771.642621
+MFU(core) arithmetic: 692.047899%
+MFU(numa) arithmetic: 18.211787%
+MFU(node) arithmetic: 1.138237%
+Time_elapsed geometric: 2562.29ms
+GFlops geometric: 2851.258473
+MFU(core) geometric: 1113.772841%
+MFU(numa) geometric: 29.309812%
+MFU(node) geometric: 1.831863%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasTrans
+M: 72
+K: 256
+N: 256
+lda: 1152
+ldb: 256
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 43008
+Total flop: 405874409472
+Time elapsed arithmetic: 7887.52ms
+Minimal GFlops arithmetic: 8.476013
+Maximal GFlops arithmetic: 165.506559
+GFlops arithmetic: 51.457794
+MFU(core) arithmetic: 20.100701%
+MFU(numa) arithmetic: 0.528966%
+MFU(node) arithmetic: 0.033060%
+Time_elapsed geometric: 1457.79ms
+GFlops geometric: 278.417078
+MFU(core) geometric: 108.756671%
+MFU(numa) geometric: 2.862018%
+MFU(node) geometric: 0.178876%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasTrans
+M: 72
+K: 256
+N: 256
+lda: 3456
+ldb: 256
+ldc: 1152
+alpha: 0.117851
+beta: 1.000000
+call times: 43008
+Total flop: 405874409472
+Time elapsed arithmetic: 10316.42ms
+Minimal GFlops arithmetic: 7.614562
+Maximal GFlops arithmetic: 134.509464
+GFlops arithmetic: 39.342553
+MFU(core) arithmetic: 15.368185%
+MFU(numa) arithmetic: 0.404426%
+MFU(node) arithmetic: 0.025277%
+Time_elapsed geometric: 1601.05ms
+GFlops geometric: 253.505643
+MFU(core) geometric: 99.025642%
+MFU(numa) geometric: 2.605938%
+MFU(node) geometric: 0.162871%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasTrans
+M: 256
+K: 16
+N: 576
+lda: 256
+ldb: 1152
+ldc: 256
+alpha: 1.000000
+beta: 1.000000
+call times: 12
+Total flop: 56623104
+Time elapsed arithmetic: 22.39ms
+Minimal GFlops arithmetic: 1.601627
+Maximal GFlops arithmetic: 3.751372
+GFlops arithmetic: 2.528568
+MFU(core) arithmetic: 0.987722%
+MFU(numa) arithmetic: 0.025993%
+MFU(node) arithmetic: 0.001625%
+Time_elapsed geometric: 13.61ms
+GFlops geometric: 4.159487
+MFU(core) geometric: 1.624800%
+MFU(numa) geometric: 0.042758%
+MFU(node) geometric: 0.002672%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasTrans
+M: 1152
+K: 16
+N: 576
+lda: 1152
+ldb: 1152
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 12
+Total flop: 254803968
+Time elapsed arithmetic: 27.87ms
+Minimal GFlops arithmetic: 6.296740
+Maximal GFlops arithmetic: 15.705477
+GFlops arithmetic: 9.142623
+MFU(core) arithmetic: 3.571337%
+MFU(numa) arithmetic: 0.093983%
+MFU(node) arithmetic: 0.005874%
+Time_elapsed geometric: 15.52ms
+GFlops geometric: 16.422165
+MFU(core) geometric: 6.414908%
+MFU(numa) geometric: 0.168813%
+MFU(node) geometric: 0.010551%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasTrans
+M: 1152
+K: 16
+N: 1152
+lda: 1152
+ldb: 2304
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 12
+Total flop: 509607936
+Time elapsed arithmetic: 29.65ms
+Minimal GFlops arithmetic: 8.146642
+Maximal GFlops arithmetic: 27.963629
+GFlops arithmetic: 17.188104
+MFU(core) arithmetic: 6.714103%
+MFU(numa) arithmetic: 0.176687%
+MFU(node) arithmetic: 0.011043%
+Time_elapsed geometric: 20.51ms
+GFlops geometric: 24.845461
+MFU(core) geometric: 9.705258%
+MFU(numa) geometric: 0.255402%
+MFU(node) geometric: 0.015963%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasTrans
+M: 1152
+K: 16
+N: 3456
+lda: 1152
+ldb: 6912
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 336
+Total flop: 42807066624
+Time elapsed arithmetic: 1111.19ms
+Minimal GFlops arithmetic: 4.804395
+Maximal GFlops arithmetic: 91.880119
+GFlops arithmetic: 38.523796
+MFU(core) arithmetic: 15.048358%
+MFU(numa) arithmetic: 0.396009%
+MFU(node) arithmetic: 0.024751%
+Time_elapsed geometric: 800.57ms
+GFlops geometric: 53.470519
+MFU(core) geometric: 20.886922%
+MFU(numa) geometric: 0.549656%
+MFU(node) geometric: 0.034353%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasTrans
+M: 1152
+K: 4096
+N: 16
+lda: 1152
+ldb: 32
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 12
+Total flop: 1811939328
+Time elapsed arithmetic: 50.04ms
+Minimal GFlops arithmetic: 23.789435
+Maximal GFlops arithmetic: 59.690738
+GFlops arithmetic: 36.211655
+MFU(core) arithmetic: 14.145178%
+MFU(numa) arithmetic: 0.372242%
+MFU(node) arithmetic: 0.023265%
+Time_elapsed geometric: 30.22ms
+GFlops geometric: 59.966046
+MFU(core) geometric: 23.424237%
+MFU(numa) geometric: 0.616427%
+MFU(node) geometric: 0.038527%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasTrans
+M: 1152
+K: 4096
+N: 576
+lda: 1152
+ldb: 1152
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 336
+Total flop: 1826434842624
+Time elapsed arithmetic: 2065.99ms
+Minimal GFlops arithmetic: 179.212860
+Maximal GFlops arithmetic: 1393.687988
+GFlops arithmetic: 884.049439
+MFU(core) arithmetic: 345.331812%
+MFU(numa) arithmetic: 9.087679%
+MFU(node) arithmetic: 0.567980%
+Time_elapsed geometric: 1489.06ms
+GFlops geometric: 1226.570233
+MFU(core) geometric: 479.128997%
+MFU(numa) geometric: 12.608658%
+MFU(node) geometric: 0.788041%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasTrans
+M: 1152
+K: 4096
+N: 1728
+lda: 1152
+ldb: 3456
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 336
+Total flop: 5479304527872
+Time elapsed arithmetic: 3175.44ms
+Minimal GFlops arithmetic: 497.024063
+Maximal GFlops arithmetic: 2290.080375
+GFlops arithmetic: 1725.524612
+MFU(core) arithmetic: 674.033051%
+MFU(numa) arithmetic: 17.737712%
+MFU(node) arithmetic: 1.108607%
+Time_elapsed geometric: 2357.81ms
+GFlops geometric: 2323.892338
+MFU(core) geometric: 907.770445%
+MFU(numa) geometric: 23.888696%
+MFU(node) geometric: 1.493043%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasTrans
+M: 1152
+K: 4096
+N: 2304
+lda: 1152
+ldb: 4608
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 336
+Total flop: 7305739370496
+Time elapsed arithmetic: 4324.22ms
+Minimal GFlops arithmetic: 1230.986105
+Maximal GFlops arithmetic: 2283.497079
+GFlops arithmetic: 1689.492903
+MFU(core) arithmetic: 659.958165%
+MFU(numa) arithmetic: 17.367320%
+MFU(node) arithmetic: 1.085458%
+Time_elapsed geometric: 3348.93ms
+GFlops geometric: 2181.511803
+MFU(core) geometric: 852.153048%
+MFU(numa) geometric: 22.425080%
+MFU(node) geometric: 1.401568%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasNoTrans
+Transb: CblasTrans
+M: 4608
+K: 4096
+N: 576
+lda: 4608
+ldb: 1152
+ldc: 4608
+alpha: 1.000000
+beta: 1.000000
+call times: 336
+Total flop: 7305739370496
+Time elapsed arithmetic: 3770.64ms
+Minimal GFlops arithmetic: 618.115933
+Maximal GFlops arithmetic: 2743.469555
+GFlops arithmetic: 1937.531557
+MFU(core) arithmetic: 756.848265%
+MFU(numa) arithmetic: 19.917060%
+MFU(node) arithmetic: 1.244816%
+Time_elapsed geometric: 2737.95ms
+GFlops geometric: 2668.325318
+MFU(core) geometric: 1042.314577%
+MFU(numa) geometric: 27.429331%
+MFU(node) geometric: 1.714333%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasTrans
+Transb: CblasNoTrans
+M: 32
+K: 1152
+N: 2048
+lda: 1152
+ldb: 1152
+ldc: 32
+alpha: 1.000000
+beta: 1.000000
+call times: 12
+Total flop: 1811939328
+Time elapsed arithmetic: 65.45ms
+Minimal GFlops arithmetic: 19.780741
+Maximal GFlops arithmetic: 42.346045
+GFlops arithmetic: 27.683535
+MFU(core) arithmetic: 10.813881%
+MFU(numa) arithmetic: 0.284576%
+MFU(node) arithmetic: 0.017786%
+Time_elapsed geometric: 42.42ms
+GFlops geometric: 42.709770
+MFU(core) geometric: 16.683504%
+MFU(numa) geometric: 0.439040%
+MFU(node) geometric: 0.027440%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasTrans
+Transb: CblasNoTrans
+M: 256
+K: 72
+N: 256
+lda: 3456
+ldb: 1152
+ldc: 256
+alpha: 1.000000
+beta: 0.000000
+call times: 43008
+Total flop: 405874409472
+Time elapsed arithmetic: 14373.78ms
+Minimal GFlops arithmetic: 0.732847
+Maximal GFlops arithmetic: 85.195439
+GFlops arithmetic: 28.237129
+MFU(core) arithmetic: 11.030129%
+MFU(numa) arithmetic: 0.290267%
+MFU(node) arithmetic: 0.018142%
+Time_elapsed geometric: 1673.77ms
+GFlops geometric: 242.491681
+MFU(core) geometric: 94.723313%
+MFU(numa) geometric: 2.492719%
+MFU(node) geometric: 0.155795%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasTrans
+Transb: CblasNoTrans
+M: 256
+K: 72
+N: 256
+lda: 3456
+ldb: 3456
+ldc: 256
+alpha: 0.117851
+beta: 0.000000
+call times: 43008
+Total flop: 405874409472
+Time elapsed arithmetic: 20262.08ms
+Minimal GFlops arithmetic: 0.648162
+Maximal GFlops arithmetic: 75.970923
+GFlops arithmetic: 20.031228
+MFU(core) arithmetic: 7.824698%
+MFU(numa) arithmetic: 0.205913%
+MFU(node) arithmetic: 0.012870%
+Time_elapsed geometric: 1698.86ms
+GFlops geometric: 238.910094
+MFU(core) geometric: 93.324255%
+MFU(numa) geometric: 2.455901%
+MFU(node) geometric: 0.153494%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasTrans
+Transb: CblasNoTrans
+M: 256
+K: 72
+N: 256
+lda: 3456
+ldb: 3456
+ldc: 256
+alpha: 1.000000
+beta: 0.000000
+call times: 43008
+Total flop: 405874409472
+Time elapsed arithmetic: 12035.86ms
+Minimal GFlops arithmetic: 0.302005
+Maximal GFlops arithmetic: 97.601473
+GFlops arithmetic: 33.722100
+MFU(core) arithmetic: 13.172695%
+MFU(numa) arithmetic: 0.346650%
+MFU(node) arithmetic: 0.021666%
+Time_elapsed geometric: 1313.71ms
+GFlops geometric: 308.951939
+MFU(core) geometric: 120.684351%
+MFU(numa) geometric: 3.175904%
+MFU(node) geometric: 0.198494%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasTrans
+Transb: CblasNoTrans
+M: 1152
+K: 256
+N: 8
+lda: 256
+ldb: 256
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 12
+Total flop: 56623104
+Time elapsed arithmetic: 180.67ms
+Minimal GFlops arithmetic: 0.080892
+Maximal GFlops arithmetic: 1.915060
+GFlops arithmetic: 0.313409
+MFU(core) arithmetic: 0.122426%
+MFU(numa) arithmetic: 0.003222%
+MFU(node) arithmetic: 0.000201%
+Time_elapsed geometric: 101.23ms
+GFlops geometric: 0.559357
+MFU(core) geometric: 0.218499%
+MFU(numa) geometric: 0.005750%
+MFU(node) geometric: 0.000359%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasTrans
+Transb: CblasNoTrans
+M: 1152
+K: 1152
+N: 8
+lda: 1152
+ldb: 1152
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 12
+Total flop: 254803968
+Time elapsed arithmetic: 49.71ms
+Minimal GFlops arithmetic: 3.417535
+Maximal GFlops arithmetic: 9.587352
+GFlops arithmetic: 5.125598
+MFU(core) arithmetic: 2.002187%
+MFU(numa) arithmetic: 0.052689%
+MFU(node) arithmetic: 0.003293%
+Time_elapsed geometric: 25.17ms
+GFlops geometric: 10.121400
+MFU(core) geometric: 3.953672%
+MFU(numa) geometric: 0.104044%
+MFU(node) geometric: 0.006503%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasTrans
+Transb: CblasNoTrans
+M: 1152
+K: 1152
+N: 2048
+lda: 1152
+ldb: 1152
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 336
+Total flop: 1826434842624
+Time elapsed arithmetic: 2770.98ms
+Minimal GFlops arithmetic: 183.792433
+Maximal GFlops arithmetic: 1060.160875
+GFlops arithmetic: 659.128904
+MFU(core) arithmetic: 257.472228%
+MFU(numa) arithmetic: 6.775585%
+MFU(node) arithmetic: 0.423474%
+Time_elapsed geometric: 1627.33ms
+GFlops geometric: 1122.352284
+MFU(core) geometric: 438.418861%
+MFU(numa) geometric: 11.537338%
+MFU(node) geometric: 0.721084%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasTrans
+Transb: CblasNoTrans
+M: 1152
+K: 4608
+N: 2048
+lda: 4608
+ldb: 4608
+ldc: 1152
+alpha: 1.000000
+beta: 1.000000
+call times: 336
+Total flop: 7305739370496
+Time elapsed arithmetic: 9737.64ms
+Minimal GFlops arithmetic: 308.685758
+Maximal GFlops arithmetic: 1101.731071
+GFlops arithmetic: 750.257551
+MFU(core) arithmetic: 293.069356%
+MFU(numa) arithmetic: 7.712351%
+MFU(node) arithmetic: 0.482022%
+Time_elapsed geometric: 5798.91ms
+GFlops geometric: 1259.846061
+MFU(core) geometric: 492.127367%
+MFU(numa) geometric: 12.950720%
+MFU(node) geometric: 0.809420%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasTrans
+Transb: CblasNoTrans
+M: 2304
+K: 1152
+N: 8
+lda: 1152
+ldb: 1152
+ldc: 2304
+alpha: 1.000000
+beta: 1.000000
+call times: 12
+Total flop: 509607936
+Time elapsed arithmetic: 47.03ms
+Minimal GFlops arithmetic: 7.103450
+Maximal GFlops arithmetic: 15.418321
+GFlops arithmetic: 10.835818
+MFU(core) arithmetic: 4.232742%
+MFU(numa) arithmetic: 0.111388%
+MFU(node) arithmetic: 0.006962%
+Time_elapsed geometric: 26.63ms
+GFlops geometric: 19.136942
+MFU(core) geometric: 7.475368%
+MFU(numa) geometric: 0.196720%
+MFU(node) geometric: 0.012295%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasTrans
+Transb: CblasNoTrans
+M: 3456
+K: 1152
+N: 2048
+lda: 1152
+ldb: 1152
+ldc: 3456
+alpha: 1.000000
+beta: 1.000000
+call times: 336
+Total flop: 5479304527872
+Time elapsed arithmetic: 3513.21ms
+Minimal GFlops arithmetic: 455.894273
+Maximal GFlops arithmetic: 2635.735118
+GFlops arithmetic: 1559.629764
+MFU(core) arithmetic: 609.230377%
+MFU(numa) arithmetic: 16.032378%
+MFU(node) arithmetic: 1.002024%
+Time_elapsed geometric: 2173.98ms
+GFlops geometric: 2520.406026
+MFU(core) geometric: 984.533604%
+MFU(numa) geometric: 25.908779%
+MFU(node) geometric: 1.619299%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasTrans
+Transb: CblasNoTrans
+M: 4608
+K: 1152
+N: 2048
+lda: 1152
+ldb: 1152
+ldc: 4608
+alpha: 1.000000
+beta: 1.000000
+call times: 336
+Total flop: 7305739370496
+Time elapsed arithmetic: 3620.11ms
+Minimal GFlops arithmetic: 568.562070
+Maximal GFlops arithmetic: 3274.349981
+GFlops arithmetic: 2018.097414
+MFU(core) arithmetic: 788.319302%
+MFU(numa) arithmetic: 20.745245%
+MFU(node) arithmetic: 1.296578%
+Time_elapsed geometric: 2179.28ms
+GFlops geometric: 3352.366225
+MFU(core) geometric: 1309.518057%
+MFU(numa) geometric: 34.461001%
+MFU(node) geometric: 2.153813%
+==========Atype_profiler_info=========
+GEMM Type: SGEMM
+Order: CblasColMajor
+Transa: CblasTrans
+Transb: CblasNoTrans
+M: 6912
+K: 1152
+N: 8
+lda: 1152
+ldb: 1152
+ldc: 6912
+alpha: 1.000000
+beta: 1.000000
+call times: 336
+Total flop: 42807066624
+Time elapsed arithmetic: 1611.37ms
+Minimal GFlops arithmetic: 4.906983
+Maximal GFlops arithmetic: 54.253781
+GFlops arithmetic: 26.565556
+MFU(core) arithmetic: 10.377170%
+MFU(numa) arithmetic: 0.273083%
+MFU(node) arithmetic: 0.017068%
+Time_elapsed geometric: 934.60ms
+GFlops geometric: 45.802730
+MFU(core) geometric: 17.891691%
+MFU(numa) geometric: 0.470834%
+MFU(node) geometric: 0.029427%
+==========Total_profiler_info==========
+call times: 306240
+Total flop: 68729095323648
+Time elapsed arithmetic: 144315.70ms
+Minimal GFlops arithmetic: 0.080892
+Maximal GFlops arithmetic: 3274.349981
+GFlops arithmetic: 476.241284
+MFU(core) arithmetic: 186.031752%
+MFU(numa) arithmetic: 4.895572%
+MFU(node) arithmetic: 0.305973%
+Time_elapsed geometric: 38233.72ms
+GFlops geometric: 1797.604062
+MFU(core) geometric: 702.189087%
+MFU(numa) geometric: 18.478660%
+MFU(node) geometric: 1.154916%

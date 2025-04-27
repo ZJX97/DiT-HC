@@ -1,0 +1,2 @@
+[[34m2025-04-14 11:17:12[0m] Experiment directory created at checkpoints/077-DiT-XL-2
+[[34m2025-04-14 11:17:12[0m] INFO:: batch_size=28,debug=True,pre_latent=True, world_size=4, dp_size=4, tp_size=1.

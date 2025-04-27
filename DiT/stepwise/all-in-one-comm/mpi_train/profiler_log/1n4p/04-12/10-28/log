@@ -1,0 +1,188 @@
+==========================sorted by cpu_time_total==========================
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                                   Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg       CPU Mem  Self CPU Mem    # of Calls  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                          ProfilerStep*         1.79%        2.424s        89.61%      121.538s       30.385s       2.51 Gb    -214.88 Mb             4  
+                        DistributedDataParallel.forward        10.76%       14.591s        43.09%       58.444s       14.611s      71.95 Gb      17.23 Gb             4  
+                                         mpi:all_reduce         0.00%       0.000us             0       58.188s     246.559ms     -49.45 Gb           0 b           236  
+autograd::engine::evaluate_function: CustomLinearFun...         0.27%     369.620ms        38.56%       52.295s      90.790ms     -27.65 Gb     -51.90 Gb           576  
+                           CustomLinearFunctionBackward         0.43%     582.050ms        38.28%       51.925s      90.148ms      24.25 Gb           0 b           576  
+                              kpops::kp_linear_backward        37.59%       50.981s        37.59%       50.981s      88.509ms           0 b           0 b           576  
+                                   CustomLinearFunction         0.32%     437.625ms        36.52%       49.539s      86.006ms      31.09 Gb           0 b           576  
+                               kpops::kp_linear_forward        34.57%       46.888s        34.57%       46.888s      81.403ms           0 b           0 b           576  
+                                            aten::zero_         0.02%      27.116ms         1.85%        2.506s     735.195us           0 b           0 b          3408  
+                                            aten::fill_         1.83%        2.479s         1.83%        2.479s       1.220ms           0 b           0 b          2032  
+                                       aten::layer_norm         0.00%       3.740ms         1.82%        2.464s      10.809ms       7.03 Gb           0 b           228  
+                                aten::native_layer_norm         0.85%        1.157s         1.81%        2.461s      10.792ms       7.03 Gb      -7.01 Gb           228  
+                                            aten::zeros         0.02%      21.299ms         1.66%        2.256s       2.283ms      41.48 Gb           0 b           988  
+                                            aten::copy_         1.37%        1.862s         1.37%        1.862s     532.825us           0 b           0 b          3495  
+autograd::engine::evaluate_function: torch::autograd...         0.18%     243.944ms         1.29%        1.747s      15.596ms      -6.94 Gb     -13.83 Gb           112  
+                                            aten::clone         0.01%      11.875ms         1.26%        1.707s       2.923ms      24.62 Gb           0 b           584  
+     autograd::engine::evaluate_function: GeluBackward0         0.23%     308.053ms         1.24%        1.677s      14.974ms     -13.78 Gb     -27.56 Gb           112  
+                           lkpops::_cpu_flash_attention         0.00%       1.470ms         1.16%        1.568s      13.996ms       3.49 Gb           0 b           112  
+                       lkpops::cpu_flash_attention_impl         1.11%        1.511s         1.15%        1.566s      13.983ms       3.49 Gb      -5.08 Gb           112  
+                                           w2kpops::mla         0.00%       3.968ms         1.13%        1.534s       6.847ms       6.89 Gb           0 b           224  
+                                      w2kpops::mla_impl         1.08%        1.471s         1.13%        1.530s       6.829ms       6.89 Gb           0 b           224  
+torch::autograd::CppNode<kpops::torch_impl::Cpu_flas...         0.01%      11.576ms         1.11%        1.503s      13.418ms       6.89 Gb      -3.45 Gb           112  
+              lkpops::cpu_flash_attention_backward_impl         1.01%        1.364s         1.10%        1.491s      13.314ms      10.34 Gb      -7.88 Gb           112  
+                                       aten::contiguous         0.00%       3.982ms         1.07%        1.446s       3.117ms      14.27 Gb           0 b           464  
+                                          GeluBackward0         0.00%       4.829ms         1.01%        1.369s      12.223ms      13.78 Gb           0 b           112  
+                                    aten::gelu_backward         1.01%        1.364s         1.01%        1.364s      12.180ms      13.78 Gb      13.78 Gb           112  
+autograd::engine::evaluate_function: torch::autograd...         0.06%      84.001ms         0.82%        1.116s     958.423us     -17.89 Mb     -17.89 Mb          1164  
+                                             aten::gelu         0.82%        1.112s         0.82%        1.112s       9.927ms      13.78 Gb      13.78 Gb           112  
+                                      w2kpops::modulate         0.00%       3.698ms         0.82%        1.112s       4.876ms       7.01 Gb           0 b           228  
+                                 w2kpops::modulate_impl         0.80%        1.080s         0.82%        1.108s       4.859ms       7.01 Gb           0 b           228  
+                                             aten::div_         0.67%     905.898ms         0.73%     990.262ms     839.205us           0 b      -4.61 Kb          1180  
+                              Optimizer.step#AdamW.step         0.04%      54.758ms         0.57%     778.469ms     194.617ms           0 b           0 b             4  
+                                  wkpops::foreach_adamw         0.53%     723.712ms         0.53%     723.712ms     180.928ms           0 b           0 b             4  
+autograd::engine::evaluate_function: NativeLayerNorm...         0.03%      40.640ms         0.47%     636.123ms       2.790ms     -13.92 Gb     -20.93 Gb           228  
+autograd::engine::evaluate_function: torch::autograd...         0.01%      19.430ms         0.34%     466.737ms       2.047ms      -7.04 Gb      -7.10 Gb           228  
+torch::autograd::CppNode<kpops::torch_impl::Modulate...         0.02%      22.187ms         0.33%     447.306ms       1.962ms      56.11 Mb      -7.01 Gb           228  
+                                              aten::cat         0.31%     416.636ms         0.32%     432.740ms       1.774ms      10.43 Gb      10.43 Gb           244  
+                               NativeLayerNormBackward0         0.01%       9.775ms         0.32%     427.672ms       1.876ms       7.01 Gb           0 b           228  
+                        w2kpops::modulate_backward_impl         0.29%     395.270ms         0.31%     425.119ms       1.865ms       7.07 Gb           0 b           228  
+                       aten::native_layer_norm_backward         0.17%     232.938ms         0.31%     417.897ms       1.833ms       7.01 Gb      -7.01 Gb           228  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+Self CPU time total: 135.634s
+
+==========================sorted by self_cpu_time_total==========================
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                                   Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg       CPU Mem  Self CPU Mem    # of Calls  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                              kpops::kp_linear_backward        37.59%       50.981s        37.59%       50.981s      88.509ms           0 b           0 b           576  
+                               kpops::kp_linear_forward        34.57%       46.888s        34.57%       46.888s      81.403ms           0 b           0 b           576  
+                        DistributedDataParallel.forward        10.76%       14.591s        43.09%       58.444s       14.611s      71.95 Gb      17.23 Gb             4  
+                                            aten::fill_         1.83%        2.479s         1.83%        2.479s       1.220ms           0 b           0 b          2032  
+                                          ProfilerStep*         1.79%        2.424s        89.61%      121.538s       30.385s       2.51 Gb    -214.88 Mb             4  
+                                            aten::copy_         1.37%        1.862s         1.37%        1.862s     532.825us           0 b           0 b          3495  
+                       lkpops::cpu_flash_attention_impl         1.11%        1.511s         1.15%        1.566s      13.983ms       3.49 Gb      -5.08 Gb           112  
+                                      w2kpops::mla_impl         1.08%        1.471s         1.13%        1.530s       6.829ms       6.89 Gb           0 b           224  
+                                    aten::gelu_backward         1.01%        1.364s         1.01%        1.364s      12.180ms      13.78 Gb      13.78 Gb           112  
+              lkpops::cpu_flash_attention_backward_impl         1.01%        1.364s         1.10%        1.491s      13.314ms      10.34 Gb      -7.88 Gb           112  
+                                aten::native_layer_norm         0.85%        1.157s         1.81%        2.461s      10.792ms       7.03 Gb      -7.01 Gb           228  
+                                             aten::gelu         0.82%        1.112s         0.82%        1.112s       9.927ms      13.78 Gb      13.78 Gb           112  
+                                 w2kpops::modulate_impl         0.80%        1.080s         0.82%        1.108s       4.859ms       7.01 Gb           0 b           228  
+                                             aten::div_         0.67%     905.898ms         0.73%     990.262ms     839.205us           0 b      -4.61 Kb          1180  
+                                  wkpops::foreach_adamw         0.53%     723.712ms         0.53%     723.712ms     180.928ms           0 b           0 b             4  
+                           CustomLinearFunctionBackward         0.43%     582.050ms        38.28%       51.925s      90.148ms      24.25 Gb           0 b           576  
+                                   CustomLinearFunction         0.32%     437.625ms        36.52%       49.539s      86.006ms      31.09 Gb           0 b           576  
+                                              aten::cat         0.31%     416.636ms         0.32%     432.740ms       1.774ms      10.43 Gb      10.43 Gb           244  
+                        w2kpops::modulate_backward_impl         0.29%     395.270ms         0.31%     425.119ms       1.865ms       7.07 Gb           0 b           228  
+                                             aten::add_         0.29%     392.101ms         0.29%     392.101ms     251.347us           0 b           0 b          1560  
+autograd::engine::evaluate_function: CustomLinearFun...         0.27%     369.620ms        38.56%       52.295s      90.790ms     -27.65 Gb     -51.90 Gb           576  
+     autograd::engine::evaluate_function: GeluBackward0         0.23%     308.053ms         1.24%        1.677s      14.974ms     -13.78 Gb     -27.56 Gb           112  
+                             w2kpops::mla_backward_impl         0.21%     290.349ms         0.24%     324.835ms       1.450ms       6.92 Gb           0 b           224  
+autograd::engine::evaluate_function: torch::autograd...         0.18%     243.944ms         1.29%        1.747s      15.596ms      -6.94 Gb     -13.83 Gb           112  
+                       aten::native_layer_norm_backward         0.17%     232.938ms         0.31%     417.897ms       1.833ms       7.01 Gb      -7.01 Gb           228  
+                                            aten::empty         0.16%     216.803ms         0.16%     216.803ms      61.071us      95.77 Gb      95.77 Gb          3550  
+                                    aten::empty_strided         0.16%     211.491ms         0.16%     211.491ms      43.267us      55.59 Gb      55.59 Gb          4888  
+                                             aten::mul_         0.13%     173.537ms         0.16%     213.140ms     182.483us           0 b      -4.56 Kb          1168  
+                                             aten::view         0.13%     173.304ms         0.13%     173.304ms      52.453us           0 b           0 b          3304  
+                                             aten::silu         0.07%     101.474ms         0.07%     101.474ms     845.614us      14.77 Mb      14.77 Mb           120  
+                                    aten::silu_backward         0.07%      96.250ms         0.07%      96.250ms     802.081us      14.77 Mb      14.77 Mb           120  
+autograd::engine::evaluate_function: torch::autograd...         0.06%      84.001ms         0.82%        1.116s     958.423us     -17.89 Mb     -17.89 Mb          1164  
+                                              aten::mul         0.05%      61.926ms         0.05%      67.018ms     310.267us      91.06 Mb      91.06 Mb           216  
+                              Optimizer.step#AdamW.step         0.04%      54.758ms         0.57%     778.469ms     194.617ms           0 b           0 b             4  
+                                       aten::as_strided         0.03%      41.806ms         0.03%      41.806ms       6.501us           0 b           0 b          6431  
+autograd::engine::evaluate_function: NativeLayerNorm...         0.03%      40.640ms         0.47%     636.123ms       2.790ms     -13.92 Gb     -20.93 Gb           228  
+                                              aten::add         0.03%      39.545ms         0.03%      40.682ms     290.588us     182.49 Mb     182.49 Mb           140  
+                                       aten::empty_like         0.03%      38.273ms         0.20%     269.497ms      94.098us      80.21 Gb           0 b          2864  
+                                       c10d::allreduce_         0.03%      37.221ms         0.03%      37.221ms     157.716us           0 b           0 b           236  
+                                         aten::_to_copy         0.03%      37.157ms         0.09%     125.748ms      48.216us      18.20 Kb           0 b          2608  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+Self CPU time total: 135.634s
+
+==========================sorted by cpu_memory_usage==========================
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                                   Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg       CPU Mem  Self CPU Mem    # of Calls  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                            aten::empty         0.16%     216.803ms         0.16%     216.803ms      61.071us      95.77 Gb      95.77 Gb          3550  
+                                       aten::empty_like         0.03%      38.273ms         0.20%     269.497ms      94.098us      80.21 Gb           0 b          2864  
+                        DistributedDataParallel.forward        10.76%       14.591s        43.09%       58.444s       14.611s      71.95 Gb      17.23 Gb             4  
+                                    aten::empty_strided         0.16%     211.491ms         0.16%     211.491ms      43.267us      55.59 Gb      55.59 Gb          4888  
+                                            aten::zeros         0.02%      21.299ms         1.66%        2.256s       2.283ms      41.48 Gb           0 b           988  
+                                   CustomLinearFunction         0.32%     437.625ms        36.52%       49.539s      86.006ms      31.09 Gb           0 b           576  
+                                            aten::clone         0.01%      11.875ms         1.26%        1.707s       2.923ms      24.62 Gb           0 b           584  
+                                       aten::zeros_like         0.01%      19.523ms         0.24%     330.132ms     262.844us      24.34 Gb           0 b          1256  
+                           CustomLinearFunctionBackward         0.43%     582.050ms        38.28%       51.925s      90.148ms      24.25 Gb           0 b           576  
+                                       aten::contiguous         0.00%       3.982ms         1.07%        1.446s       3.117ms      14.27 Gb           0 b           464  
+                                             aten::gelu         0.82%        1.112s         0.82%        1.112s       9.927ms      13.78 Gb      13.78 Gb           112  
+                                          GeluBackward0         0.00%       4.829ms         1.01%        1.369s      12.223ms      13.78 Gb           0 b           112  
+                                    aten::gelu_backward         1.01%        1.364s         1.01%        1.364s      12.180ms      13.78 Gb      13.78 Gb           112  
+                                              aten::cat         0.31%     416.636ms         0.32%     432.740ms       1.774ms      10.43 Gb      10.43 Gb           244  
+                                          aten::reshape         0.01%      11.888ms         0.22%     298.071ms     543.926us      10.34 Gb           0 b           548  
+                                          ViewBackward0         0.00%       3.386ms         0.21%     282.403ms       1.217ms      10.34 Gb           0 b           232  
+              lkpops::cpu_flash_attention_backward_impl         1.01%        1.364s         1.10%        1.491s      13.314ms      10.34 Gb      -7.88 Gb           112  
+                                        UnbindBackward0         0.00%       3.329ms         0.23%     317.820ms       2.838ms      10.34 Gb           0 b           112  
+                                            aten::stack         0.01%       8.398ms         0.23%     314.491ms       2.808ms      10.34 Gb           0 b           112  
+                        w2kpops::modulate_backward_impl         0.29%     395.270ms         0.31%     425.119ms       1.865ms       7.07 Gb           0 b           228  
+                                       aten::layer_norm         0.00%       3.740ms         1.82%        2.464s      10.809ms       7.03 Gb           0 b           228  
+                                aten::native_layer_norm         0.85%        1.157s         1.81%        2.461s      10.792ms       7.03 Gb      -7.01 Gb           228  
+                                      w2kpops::modulate         0.00%       3.698ms         0.82%        1.112s       4.876ms       7.01 Gb           0 b           228  
+                                 w2kpops::modulate_impl         0.80%        1.080s         0.82%        1.108s       4.859ms       7.01 Gb           0 b           228  
+                               NativeLayerNormBackward0         0.01%       9.775ms         0.32%     427.672ms       1.876ms       7.01 Gb           0 b           228  
+                       aten::native_layer_norm_backward         0.17%     232.938ms         0.31%     417.897ms       1.833ms       7.01 Gb      -7.01 Gb           228  
+       torch::autograd::CppNode<kpops::torch_impl::Mla>         0.01%      11.492ms         0.25%     336.327ms       1.501ms       6.92 Gb           0 b           224  
+                             w2kpops::mla_backward_impl         0.21%     290.349ms         0.24%     324.835ms       1.450ms       6.92 Gb           0 b           224  
+                                           w2kpops::mla         0.00%       3.968ms         1.13%        1.534s       6.847ms       6.89 Gb           0 b           224  
+                                      w2kpops::mla_impl         1.08%        1.471s         1.13%        1.530s       6.829ms       6.89 Gb           0 b           224  
+torch::autograd::CppNode<kpops::torch_impl::Cpu_flas...         0.01%      11.576ms         1.11%        1.503s      13.418ms       6.89 Gb      -3.45 Gb           112  
+                           lkpops::_cpu_flash_attention         0.00%       1.470ms         1.16%        1.568s      13.996ms       3.49 Gb           0 b           112  
+                       lkpops::cpu_flash_attention_impl         1.11%        1.511s         1.15%        1.566s      13.983ms       3.49 Gb      -5.08 Gb           112  
+                                          ProfilerStep*         1.79%        2.424s        89.61%      121.538s       30.385s       2.51 Gb    -214.88 Mb             4  
+                                              aten::add         0.03%      39.545ms         0.03%      40.682ms     290.588us     182.49 Mb     182.49 Mb           140  
+                                           aten::conv2d         0.00%      79.460us         0.02%      30.969ms       7.742ms     126.00 Mb           0 b             4  
+                                      aten::convolution         0.00%     414.455us         0.02%      30.890ms       7.722ms     126.00 Mb           0 b             4  
+                                     aten::_convolution         0.00%     248.751us         0.02%      30.475ms       7.619ms     126.00 Mb           0 b             4  
+                               aten::mkldnn_convolution         0.02%      27.251ms         0.02%      30.226ms       7.557ms     126.00 Mb     -63.00 Mb             4  
+                                              aten::mul         0.05%      61.926ms         0.05%      67.018ms     310.267us      91.06 Mb      91.06 Mb           216  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+Self CPU time total: 135.634s
+
+==========================sorted by self_cpu_memory_usage==========================
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                                   Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg       CPU Mem  Self CPU Mem    # of Calls  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                            aten::empty         0.16%     216.803ms         0.16%     216.803ms      61.071us      95.77 Gb      95.77 Gb          3550  
+                                    aten::empty_strided         0.16%     211.491ms         0.16%     211.491ms      43.267us      55.59 Gb      55.59 Gb          4888  
+                        DistributedDataParallel.forward        10.76%       14.591s        43.09%       58.444s       14.611s      71.95 Gb      17.23 Gb             4  
+                                             aten::gelu         0.82%        1.112s         0.82%        1.112s       9.927ms      13.78 Gb      13.78 Gb           112  
+                                    aten::gelu_backward         1.01%        1.364s         1.01%        1.364s      12.180ms      13.78 Gb      13.78 Gb           112  
+                                              aten::cat         0.31%     416.636ms         0.32%     432.740ms       1.774ms      10.43 Gb      10.43 Gb           244  
+                                              aten::add         0.03%      39.545ms         0.03%      40.682ms     290.588us     182.49 Mb     182.49 Mb           140  
+                                              aten::mul         0.05%      61.926ms         0.05%      67.018ms     310.267us      91.06 Mb      91.06 Mb           216  
+                                              aten::neg         0.01%       8.110ms         0.01%       8.110ms     144.818us      24.50 Mb      24.50 Mb            56  
+                                              aten::sub         0.01%       8.879ms         0.01%       9.450ms     236.260us      17.50 Mb      17.50 Mb            40  
+                                            aten::where         0.01%      11.385ms         0.01%      15.723ms     196.535us      22.75 Mb      15.75 Mb            80  
+                                             aten::silu         0.07%     101.474ms         0.07%     101.474ms     845.614us      14.77 Mb      14.77 Mb           120  
+                                    aten::silu_backward         0.07%      96.250ms         0.07%      96.250ms     802.081us      14.77 Mb      14.77 Mb           120  
+                                              aten::div         0.01%       8.123ms         0.01%      10.266ms     183.328us      14.00 Mb      14.00 Mb            56  
+                                              aten::pow         0.00%       5.514ms         0.01%       6.967ms     217.729us      14.00 Mb      14.00 Mb            32  
+                                              aten::exp         0.00%       2.729ms         0.00%       2.729ms     136.441us       7.00 Mb       7.00 Mb            20  
+                                            aten::clamp         0.00%       5.758ms         0.00%       5.770ms     480.853us       5.25 Mb       5.25 Mb            12  
+                                              aten::log         0.00%       1.659ms         0.00%       1.659ms     138.264us       5.25 Mb       5.25 Mb            12  
+                                             aten::tanh         0.00%       1.693ms         0.00%       1.693ms     211.566us       3.50 Mb       3.50 Mb             8  
+                                    aten::tanh_backward         0.00%       1.886ms         0.00%       1.886ms     235.743us       3.50 Mb       3.50 Mb             8  
+enumerate(DataLoader)#_MultiProcessingDataLoaderIter...         0.02%      21.798ms         0.02%      22.353ms       5.588ms       1.75 Mb       1.75 Mb             4  
+                                               aten::ge         0.00%       5.575ms         0.00%       6.442ms     536.793us       1.31 Mb       1.31 Mb            12  
+                                     aten::index_select         0.00%     368.782us         0.00%     602.074us     150.519us     504.00 Kb     504.00 Kb             4  
+                                               aten::lt         0.00%       3.877ms         0.00%       4.488ms     561.020us     448.11 Kb     448.08 Kb             8  
+                                               aten::gt         0.00%     784.903us         0.00%     969.435us     242.359us     448.00 Kb     447.98 Kb             4  
+                                              aten::cos         0.00%     518.112us         0.00%     518.112us     129.528us      56.00 Kb      56.00 Kb             4  
+                                              aten::sin         0.00%     327.452us         0.00%     327.452us      81.863us      56.00 Kb      56.00 Kb             4  
+                                            aten::index         0.01%       9.631ms         0.01%      12.388ms     154.845us      17.50 Kb      17.50 Kb            80  
+                                          aten::resize_         0.00%     204.730us         0.00%     204.730us      12.796us       2.00 Kb       2.00 Kb            16  
+                                             aten::mean         0.00%       1.194ms         0.00%       5.869ms     366.825us       1.33 Kb       1.33 Kb            16  
+                                    aten::scalar_tensor         0.00%     693.393us         0.00%     693.393us      17.335us         176 b         176 b            40  
+                                               aten::eq         0.00%     174.251us         0.00%     174.251us      43.563us         112 b         112 b             4  
+                                             aten::set_         0.00%     330.092us         0.00%     330.092us      41.262us           0 b           0 b             8  
+                                          aten::randint         0.00%     126.200us         0.00%     622.063us     155.516us         896 b           0 b             4  
+                                          aten::random_         0.00%     252.511us         0.00%     252.511us      63.128us           0 b           0 b             4  
+                                       aten::randn_like         0.00%     122.191us         0.01%      16.126ms       4.032ms       1.75 Mb           0 b             4  
+                                       aten::empty_like         0.03%      38.273ms         0.20%     269.497ms      94.098us      80.21 Gb           0 b          2864  
+                                          aten::normal_         0.01%      15.785ms         0.01%      15.785ms       3.946ms           0 b           0 b             4  
+                                       aten::lift_fresh         0.00%     394.242us         0.00%     394.242us       4.693us           0 b           0 b            84  
+                                               aten::to         0.01%      14.629ms         0.10%     140.377ms      50.714us      18.20 Kb           0 b          2768  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+Self CPU time total: 135.634s
+

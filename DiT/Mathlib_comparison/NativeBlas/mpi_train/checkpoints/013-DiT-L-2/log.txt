@@ -1,0 +1,32 @@
+[[34m2025-04-09 11:42:01[0m] Experiment directory created at checkpoints/013-DiT-L-2
+[[34m2025-04-09 11:42:01[0m] INFO:: batch_size=28,debug=False,pre_latent=True, world_size=4, dp_size=4, tp_size=1.
+[[34m2025-04-09 11:42:15[0m] DiT Parameters: 458,102,816
+[[34m2025-04-09 11:42:15[0m] Dataset contains 2,500 images (/pacific_ext/wxy/DiT_dataset/imagenet-mini-latents)
+[[34m2025-04-09 11:42:15[0m] Training for 500 epochs...
+[[34m2025-04-09 11:42:15[0m] Beginning epoch 0...
+[[34m2025-04-09 11:44:06[0m] (step=0000001) Train Loss: 1.0171, Train Sec/Steps:106.43s, Steps/Sec: 0.01
+[[34m2025-04-09 11:45:48[0m] (step=0000002) Train Loss: 1.0048, Train Sec/Steps:102.14s, Steps/Sec: 0.01
+[[34m2025-04-09 11:47:32[0m] (step=0000003) Train Loss: 1.0088, Train Sec/Steps:103.49s, Steps/Sec: 0.01
+[[34m2025-04-09 11:49:14[0m] (step=0000004) Train Loss: nan, Train Sec/Steps:102.20s, Steps/Sec: 0.01
+[[34m2025-04-09 11:50:56[0m] (step=0000005) Train Loss: nan, Train Sec/Steps:102.06s, Steps/Sec: 0.01
+[[34m2025-04-09 11:52:38[0m] (step=0000006) Train Loss: nan, Train Sec/Steps:101.30s, Steps/Sec: 0.01
+[[34m2025-04-09 11:52:38[0m] Beginning epoch 1...
+[[34m2025-04-09 11:55:36[0m] (step=0000007) Train Loss: nan, Train Sec/Steps:173.54s, Steps/Sec: 0.01
+[[34m2025-04-09 11:57:37[0m] (step=0000008) Train Loss: nan, Train Sec/Steps:120.62s, Steps/Sec: 0.01
+[[34m2025-04-09 11:59:23[0m] (step=0000009) Train Loss: nan, Train Sec/Steps:106.23s, Steps/Sec: 0.01
+[[34m2025-04-09 12:01:08[0m] (step=0000010) Train Loss: nan, Train Sec/Steps:104.99s, Steps/Sec: 0.01
+[[34m2025-04-09 12:02:52[0m] (step=0000011) Train Loss: nan, Train Sec/Steps:104.18s, Steps/Sec: 0.01
+[[34m2025-04-09 12:04:37[0m] (step=0000012) Train Loss: nan, Train Sec/Steps:104.02s, Steps/Sec: 0.01
+[[34m2025-04-09 12:04:42[0m] Beginning epoch 2...
+[[34m2025-04-09 12:07:30[0m] (step=0000013) Train Loss: nan, Train Sec/Steps:168.34s, Steps/Sec: 0.01
+[[34m2025-04-09 12:09:23[0m] (step=0000014) Train Loss: nan, Train Sec/Steps:113.23s, Steps/Sec: 0.01
+[[34m2025-04-09 12:11:10[0m] (step=0000015) Train Loss: nan, Train Sec/Steps:106.59s, Steps/Sec: 0.01
+[[34m2025-04-09 12:12:55[0m] (step=0000016) Train Loss: nan, Train Sec/Steps:104.58s, Steps/Sec: 0.01
+[[34m2025-04-09 12:14:40[0m] (step=0000017) Train Loss: nan, Train Sec/Steps:104.71s, Steps/Sec: 0.01
+[[34m2025-04-09 12:16:24[0m] (step=0000018) Train Loss: nan, Train Sec/Steps:104.74s, Steps/Sec: 0.01
+[[34m2025-04-09 12:16:29[0m] Beginning epoch 3...
+[[34m2025-04-09 12:19:28[0m] (step=0000019) Train Loss: nan, Train Sec/Steps:177.78s, Steps/Sec: 0.01
+[[34m2025-04-09 12:21:23[0m] (step=0000020) Train Loss: nan, Train Sec/Steps:114.82s, Steps/Sec: 0.01
+[[34m2025-04-09 12:23:08[0m] (step=0000021) Train Loss: nan, Train Sec/Steps:105.09s, Steps/Sec: 0.01
+[[34m2025-04-09 12:24:53[0m] (step=0000022) Train Loss: nan, Train Sec/Steps:104.83s, Steps/Sec: 0.01
+[[34m2025-04-09 12:26:37[0m] (step=0000023) Train Loss: nan, Train Sec/Steps:104.51s, Steps/Sec: 0.01

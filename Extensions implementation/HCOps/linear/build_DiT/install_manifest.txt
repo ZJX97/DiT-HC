@@ -1,0 +1,6 @@
+/pacific_fs/zjx/workspace/kpops_linear/src/kpops/_kpops/lib/libkpprim.so
+/pacific_fs/zjx/workspace/kpops_linear/src/kpops/_kpops/include/kpops/kpops.hpp
+/pacific_fs/zjx/workspace/kpops_linear/src/kpops/_kpops/lib/cmake/kpprim/kpprimTargets.cmake
+/pacific_fs/zjx/workspace/kpops_linear/src/kpops/_kpops/lib/cmake/kpprim/kpprimTargets-release.cmake
+/pacific_fs/zjx/workspace/kpops_linear/src/kpops/_kpops/lib/cmake/kpprim/kpprim-config.cmake
+/pacific_fs/zjx/workspace/kpops_linear/src/kpops/_kpops/lib/cmake/kpprim/kpprim-config-version.cmake

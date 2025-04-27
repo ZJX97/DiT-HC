@@ -1,0 +1,24 @@
+[[34m2025-04-13 14:41:31[0m] Experiment directory created at checkpoints/030-DiT-S-2
+[[34m2025-04-13 14:41:31[0m] INFO:: batch_size=28,debug=False,pre_latent=True, world_size=4, dp_size=4, tp_size=1.
+[[34m2025-04-13 14:41:33[0m] DiT Parameters: 32,963,360
+[[34m2025-04-13 14:41:33[0m] Dataset contains 2,500 images (/pacific_ext/wxy/DiT_dataset/imagenet-mini-latents)
+[[34m2025-04-13 14:41:33[0m] Training for 500 epochs...
+[[34m2025-04-13 14:41:33[0m] Beginning epoch 0...
+[[34m2025-04-13 14:41:42[0m] (step=0000001) Train Loss: 1.0310, Train Sec/Steps:9.18s, Steps/Sec: 0.11
+[[34m2025-04-13 14:41:50[0m] (step=0000002) Train Loss: 1.0122, Train Sec/Steps:8.36s, Steps/Sec: 0.12
+[[34m2025-04-13 14:41:59[0m] (step=0000003) Train Loss: 0.9988, Train Sec/Steps:8.17s, Steps/Sec: 0.12
+[[34m2025-04-13 14:42:07[0m] (step=0000004) Train Loss: 0.9941, Train Sec/Steps:7.99s, Steps/Sec: 0.13
+[[34m2025-04-13 14:42:14[0m] (step=0000005) Train Loss: 0.9876, Train Sec/Steps:7.74s, Steps/Sec: 0.13
+[[34m2025-04-13 14:42:22[0m] (step=0000006) Train Loss: 0.9858, Train Sec/Steps:7.80s, Steps/Sec: 0.13
+[[34m2025-04-13 14:42:30[0m] (step=0000007) Train Loss: 0.9799, Train Sec/Steps:7.90s, Steps/Sec: 0.13
+[[34m2025-04-13 14:42:38[0m] (step=0000008) Train Loss: 0.9752, Train Sec/Steps:7.94s, Steps/Sec: 0.13
+[[34m2025-04-13 14:42:46[0m] (step=0000009) Train Loss: 0.9585, Train Sec/Steps:7.87s, Steps/Sec: 0.13
+[[34m2025-04-13 14:42:54[0m] (step=0000010) Train Loss: 0.9577, Train Sec/Steps:7.86s, Steps/Sec: 0.13
+[[34m2025-04-13 14:43:02[0m] (step=0000011) Train Loss: 0.9422, Train Sec/Steps:7.90s, Steps/Sec: 0.13
+[[34m2025-04-13 14:43:10[0m] (step=0000012) Train Loss: 0.9394, Train Sec/Steps:7.82s, Steps/Sec: 0.13
+[[34m2025-04-13 14:43:17[0m] (step=0000013) Train Loss: 0.9550, Train Sec/Steps:7.77s, Steps/Sec: 0.13
+[[34m2025-04-13 14:43:25[0m] (step=0000014) Train Loss: 0.9102, Train Sec/Steps:7.82s, Steps/Sec: 0.13
+[[34m2025-04-13 14:43:33[0m] (step=0000015) Train Loss: 0.9103, Train Sec/Steps:7.76s, Steps/Sec: 0.13
+[[34m2025-04-13 14:43:41[0m] (step=0000016) Train Loss: 0.8889, Train Sec/Steps:7.92s, Steps/Sec: 0.13
+[[34m2025-04-13 14:43:49[0m] (step=0000017) Train Loss: 0.8894, Train Sec/Steps:7.87s, Steps/Sec: 0.13
+[[34m2025-04-13 14:43:56[0m] (step=0000018) Train Loss: 0.8657, Train Sec/Steps:7.78s, Steps/Sec: 0.13

@@ -1,0 +1,8 @@
+[[34m2025-04-10 01:09:58[0m] Experiment directory created at checkpoints/035-DiT-XL-2
+[[34m2025-04-10 01:09:58[0m] INFO:: batch_size=3584,debug=False,pre_latent=True, world_size=512, dp_size=512, tp_size=1.
+[[34m2025-04-10 01:14:18[0m] DiT Parameters: 675,129,632
+[[34m2025-04-10 01:14:18[0m] Dataset contains 309,180 images (/pacific_ext/wxy/DiT_dataset/imagenet-all-latents)
+[[34m2025-04-10 01:14:18[0m] Training for 500 epochs...
+[[34m2025-04-10 01:14:18[0m] Beginning epoch 0...
+[[34m2025-04-10 01:16:51[0m] (step=0000005) Train Loss: 0.9897, Train Sec/Steps:30.44s, Steps/Sec: 0.03
+[[34m2025-04-10 01:18:25[0m] (step=0000010) Train Loss: 0.8464, Train Sec/Steps:18.90s, Steps/Sec: 0.05

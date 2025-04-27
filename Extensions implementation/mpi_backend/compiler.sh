@@ -1,0 +1,11 @@
+ taskset -c 10-17 clang++  -O3 -Wall -shared -std=c++17 -fPIC $(python3 -m pybind11 --includes) \
+    -I/pacific_fs/xuyunpu/app/anaconda3/envs/DiT/lib/python3.12/site-packages/torch/include  \
+    -I/pacific_fs/xuyunpu/app/anaconda3/envs/DiT/lib/python3.12/site-packages/torch/include/torch/csrc/api/include  \
+    -I/pacific_fs/HPCKit/25.3.30/hmpi/bisheng-0303/hmpi/include \
+    -L/pacific_fs/xuyunpu/app/anaconda3/envs/DiT/lib/python3.12/site-packages/torch/lib   \
+    -L/pacific_fs/xuyunpu/app/anaconda3/envs/DiT/lib \
+    -L/pacific_fs/HPCKit/25.3.30/hmpi/bisheng-0303/hmpi/lib  \
+    -Wl,-rpath,/pacific_fs/xuyunpu/app/anaconda3/envs/DiT/lib/python3.12/site-packages/torch/lib  \
+    -Wl,-rpath,/pacific_fs/xuyunpu/app/anaconda3/envs/DiT/lib  \
+    -Wl,-rpath,/pacific_fs/HPCKit/25.3.30/hmpi/bisheng-0303/hmpi/lib  \
+    -ltorch -lc10  -lmpi ProcessGroupHMPI.cpp -o ProcessGroupHMPI$(python3-config --extension-suffix) 

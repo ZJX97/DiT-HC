@@ -1,0 +1,6 @@
+[[34m2025-04-02 18:42:44[0m] Experiment directory created at checkpoints/008-DiT-XL-2
+[[34m2025-04-02 18:42:44[0m] INFO:: batch_size=32,debug=False,pre_latent=True, world_size=8, dp_size=8, tp_size=1.
+[[34m2025-04-02 18:43:31[0m] DiT Parameters: 675,129,632
+[[34m2025-04-02 18:43:31[0m] Dataset contains 2,500 images (/pacific_ext/wxy/DiT_dataset/imagenet-mini-latents)
+[[34m2025-04-02 18:43:31[0m] Training for 500 epochs...
+[[34m2025-04-02 18:43:31[0m] Beginning epoch 0...

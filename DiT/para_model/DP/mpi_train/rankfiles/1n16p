@@ -1,0 +1,16 @@
+rank 0 = localhost slot=0:0-37
+rank 1 = localhost slot=0:39-76
+rank 2 = localhost slot=0:77-114
+rank 3 = localhost slot=0:115-152
+rank 4 = localhost slot=0:153-190
+rank 5 = localhost slot=0:192-229
+rank 6 = localhost slot=0:230-267
+rank 7 = localhost slot=0:268-305
+rank 8 = localhost slot=1:0-37
+rank 9 = localhost slot=1:39-76
+rank 10 = localhost  slot=1:77-114
+rank 11 = localhost  slot=1:115-152
+rank 12 = localhost  slot=1:153-190
+rank 13 = localhost  slot=1:192-229
+rank 14 = localhost  slot=1:230-267
+rank 15 = localhost  slot=1:268-305

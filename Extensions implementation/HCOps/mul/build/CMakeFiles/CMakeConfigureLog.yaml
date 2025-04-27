@@ -1,0 +1,496 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Linux - 5.10.0-228.0.0.127.oe2203sp4.aarch64 - aarch64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /pacific_ext/wxy/kpops_mul/build/CMakeFiles/3.31.6/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/clang++ 
+      Build flags: -mcpu=hip11;-O3;-g;--rtlib=compiler-rt
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /pacific_ext/wxy/kpops_mul/build/CMakeFiles/3.31.6/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-pnwfha"
+      binary: "/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-pnwfha"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/clang-scan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-pnwfha'
+        
+        Run Build Command(s): /pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c9241/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c9241.dir/build.make CMakeFiles/cmTC_c9241.dir/build
+        gmake[1]: Entering directory '/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-pnwfha'
+        Building C object CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o
+        /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/clang   -v -MD -MT CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o -c /pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        BiSheng Enterprise 4.1.0.B204 clang version 17.0.6 (a005764761b0)
+        Target: aarch64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin
+        Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1
+        Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/clang-17" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fmath-errno -ffp-contract=fast -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-abi aapcs -debugger-tuning=gdb -v -fcoverage-compilation-dir=/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-pnwfha -resource-dir /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17 -dependency-file CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o -sys-header-deps -I/pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include -c-isystem /pacific_fs/wxy/app/pytorch/third_party/sleef/install/include -c-isystem . -cxx-isystem /pacific_fs/wxy/app/pytorch/third_party/sleef/install/include -cxx-isystem . -internal-isystem /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../aarch64-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-pnwfha -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -target-feature -fmv -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o -x c /pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target aarch64-unknown-linux-gnu
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../aarch64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include
+         /pacific_fs/wxy/app/pytorch/third_party/sleef/install/include
+         .
+         /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Linking C executable cmTC_c9241
+        /pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9241.dir/link.txt --verbose=1
+        BiSheng Enterprise 4.1.0.B204 clang version 17.0.6 (a005764761b0)
+        Target: aarch64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin
+        Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1
+        Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" -pie -EL --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_c9241 /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crti.o /usr/lib/gcc/aarch64-linux-gnu/10.3.1/crtbeginS.o -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib/aarch64-unknown-linux-gnu -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/10.3.1 -L/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib64 -L/lib -L/usr/lib -L/pacific_fs/wxy/app/pytorch/third_party/sleef/install/lib64 -L. -v CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/aarch64-linux-gnu/10.3.1/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crtn.o
+        GNU ld (GNU Binutils) 2.37
+        /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/clang  -v -Wl,-v CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o -o cmTC_c9241
+        gmake[1]: Leaving directory '/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-pnwfha'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include]
+          add: [/pacific_fs/wxy/app/pytorch/third_party/sleef/install/include]
+          add: [.]
+          add: [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include] ==> [/pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include]
+        collapse include dir [/pacific_fs/wxy/app/pytorch/third_party/sleef/install/include] ==> [/pacific_fs/wxy/app/pytorch/third_party/sleef/install/include]
+        skipping relative include dir [.]
+        collapse include dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include] ==> [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include;/pacific_fs/wxy/app/pytorch/third_party/sleef/install/include;/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-pnwfha']
+        ignore line: []
+        ignore line: [Run Build Command(s): /pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c9241/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_c9241.dir/build.make CMakeFiles/cmTC_c9241.dir/build]
+        ignore line: [gmake[1]: Entering directory '/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-pnwfha']
+        ignore line: [Building C object CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/clang   -v -MD -MT CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o -c /pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [BiSheng Enterprise 4.1.0.B204 clang version 17.0.6 (a005764761b0)]
+        ignore line: [Target: aarch64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/clang-17" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fmath-errno -ffp-contract=fast -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-abi aapcs -debugger-tuning=gdb -v -fcoverage-compilation-dir=/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-pnwfha -resource-dir /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17 -dependency-file CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o -sys-header-deps -I/pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include -c-isystem /pacific_fs/wxy/app/pytorch/third_party/sleef/install/include -c-isystem . -cxx-isystem /pacific_fs/wxy/app/pytorch/third_party/sleef/install/include -cxx-isystem . -internal-isystem /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../aarch64-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-pnwfha -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -target-feature -fmv -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o -x c /pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target aarch64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../aarch64-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include]
+        ignore line: [ /pacific_fs/wxy/app/pytorch/third_party/sleef/install/include]
+        ignore line: [ .]
+        ignore line: [ /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_c9241]
+        ignore line: [/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9241.dir/link.txt --verbose=1]
+        ignore line: [BiSheng Enterprise 4.1.0.B204 clang version 17.0.6 (a005764761b0)]
+        ignore line: [Target: aarch64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" -pie -EL --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_c9241 /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crti.o /usr/lib/gcc/aarch64-linux-gnu/10.3.1/crtbeginS.o -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib/aarch64-unknown-linux-gnu -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/10.3.1 -L/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib64 -L/lib -L/usr/lib -L/pacific_fs/wxy/app/pytorch/third_party/sleef/install/lib64 -L. -v CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/aarch64-linux-gnu/10.3.1/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c9241] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/Scrt1.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/crtbeginS.o]
+          arg [-L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib/aarch64-unknown-linux-gnu] ==> dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib/aarch64-unknown-linux-gnu]
+          arg [-L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu] ==> dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/10.3.1] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/10.3.1]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib] ==> dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib]
+          arg [-L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib64] ==> dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-L/pacific_fs/wxy/app/pytorch/third_party/sleef/install/lib64] ==> dir [/pacific_fs/wxy/app/pytorch/third_party/sleef/install/lib64]
+          arg [-L.] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_c9241.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/crtendS.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/Scrt1.o] ==> [/usr/lib64/Scrt1.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib/aarch64-unknown-linux-gnu] ==> [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/aarch64-unknown-linux-gnu]
+        collapse library dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu] ==> [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/10.3.1] ==> [/usr/lib/gcc/aarch64-linux-gnu/10.3.1]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib] ==> [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib]
+        collapse library dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib64] ==> [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        collapse library dir [/pacific_fs/wxy/app/pytorch/third_party/sleef/install/lib64] ==> [/pacific_fs/wxy/app/pytorch/third_party/sleef/install/lib64]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib64/Scrt1.o;/usr/lib64/crti.o;/usr/lib/gcc/aarch64-linux-gnu/10.3.1/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/10.3.1/crtendS.o;/usr/lib64/crtn.o]
+        implicit dirs: [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/aarch64-unknown-linux-gnu;/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu;/usr/lib/gcc/aarch64-linux-gnu/10.3.1;/usr/lib64;/lib64;/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib;/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib64;/lib;/usr/lib;/pacific_fs/wxy/app/pytorch/third_party/sleef/install/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.37
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-7NYNFs"
+      binary: "/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-7NYNFs"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: "-mcpu=hip11 -O3 -g --rtlib=compiler-rt"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-7NYNFs'
+        
+        Run Build Command(s): /pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_84acc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_84acc.dir/build.make CMakeFiles/cmTC_84acc.dir/build
+        gmake[1]: Entering directory '/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-7NYNFs'
+        Building CXX object CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o
+        /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/clang++   -mcpu=hip11 -O3 -g --rtlib=compiler-rt  -std=gnu++20   -v -MD -MT CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o -c /pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        BiSheng Enterprise 4.1.0.B204 clang version 17.0.6 (a005764761b0)
+        Target: aarch64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin
+        Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1
+        Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/clang-17" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fmath-errno -ffp-contract=fast -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu hip11 -target-feature +v9a -target-feature +aes -target-feature +bf16 -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +i8mm -target-feature +lse -target-feature +mte -target-feature +pauth -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +sm4 -target-feature +sme-f64f64 -target-feature +sme -target-feature +sve -target-feature +sve2-bitperm -target-feature +sve2 -target-feature +sme-fa64 -target-feature +fullfp16 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -fcoverage-compilation-dir=/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-7NYNFs -resource-dir /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17 -dependency-file CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -I/pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include -c-isystem /pacific_fs/wxy/app/pytorch/third_party/sleef/install/include -c-isystem . -cxx-isystem /pacific_fs/wxy/app/pytorch/third_party/sleef/install/include -cxx-isystem . -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1 -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1/aarch64-linux-gnu -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1/backward -internal-isystem /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../aarch64-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O3 -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-7NYNFs -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fno-implicit-modules -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o -x c++ /pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target aarch64-unknown-linux-gnu
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../aarch64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include
+         /pacific_fs/wxy/app/pytorch/third_party/sleef/install/include
+         .
+         /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1
+         /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1/aarch64-linux-gnu
+         /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1/backward
+         /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Linking CXX executable cmTC_84acc
+        /pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84acc.dir/link.txt --verbose=1
+        BiSheng Enterprise 4.1.0.B204 clang version 17.0.6 (a005764761b0)
+        Target: aarch64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin
+        Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1
+        Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" -pie -EL --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_84acc /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crti.o /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/clang_rt.crtbegin.o -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib/aarch64-unknown-linux-gnu -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/10.3.1 -L/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib64 -L/lib -L/usr/lib -L/pacific_fs/wxy/app/pytorch/third_party/sleef/install/lib64 -L. -v CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/libclang_rt.builtins.a -lc /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/libclang_rt.builtins.a /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/clang_rt.crtend.o /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crtn.o
+        GNU ld (GNU Binutils) 2.37
+        /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/clang++ -mcpu=hip11 -O3 -g --rtlib=compiler-rt   -v -Wl,-v CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_84acc
+        gmake[1]: Leaving directory '/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-7NYNFs'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include]
+          add: [/pacific_fs/wxy/app/pytorch/third_party/sleef/install/include]
+          add: [.]
+          add: [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1]
+          add: [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1/aarch64-linux-gnu]
+          add: [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1/backward]
+          add: [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include] ==> [/pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include]
+        collapse include dir [/pacific_fs/wxy/app/pytorch/third_party/sleef/install/include] ==> [/pacific_fs/wxy/app/pytorch/third_party/sleef/install/include]
+        skipping relative include dir [.]
+        collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1] ==> [/usr/include/c++/10.3.1]
+        collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1/aarch64-linux-gnu] ==> [/usr/include/c++/10.3.1/aarch64-linux-gnu]
+        collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1/backward] ==> [/usr/include/c++/10.3.1/backward]
+        collapse include dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include] ==> [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include;/pacific_fs/wxy/app/pytorch/third_party/sleef/install/include;/usr/include/c++/10.3.1;/usr/include/c++/10.3.1/aarch64-linux-gnu;/usr/include/c++/10.3.1/backward;/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-7NYNFs']
+        ignore line: []
+        ignore line: [Run Build Command(s): /pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_84acc/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_84acc.dir/build.make CMakeFiles/cmTC_84acc.dir/build]
+        ignore line: [gmake[1]: Entering directory '/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-7NYNFs']
+        ignore line: [Building CXX object CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/clang++   -mcpu=hip11 -O3 -g --rtlib=compiler-rt  -std=gnu++20   -v -MD -MT CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o -c /pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [BiSheng Enterprise 4.1.0.B204 clang version 17.0.6 (a005764761b0)]
+        ignore line: [Target: aarch64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/clang-17" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fmath-errno -ffp-contract=fast -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu hip11 -target-feature +v9a -target-feature +aes -target-feature +bf16 -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +i8mm -target-feature +lse -target-feature +mte -target-feature +pauth -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +sm4 -target-feature +sme-f64f64 -target-feature +sme -target-feature +sve -target-feature +sve2-bitperm -target-feature +sve2 -target-feature +sme-fa64 -target-feature +fullfp16 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -fcoverage-compilation-dir=/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-7NYNFs -resource-dir /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17 -dependency-file CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -I/pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include -c-isystem /pacific_fs/wxy/app/pytorch/third_party/sleef/install/include -c-isystem . -cxx-isystem /pacific_fs/wxy/app/pytorch/third_party/sleef/install/include -cxx-isystem . -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1 -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1/aarch64-linux-gnu -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1/backward -internal-isystem /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../aarch64-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O3 -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/pacific_ext/wxy/kpops_mul/build/CMakeFiles/CMakeScratch/TryCompile-7NYNFs -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fno-implicit-modules -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o -x c++ /pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target aarch64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../aarch64-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /pacific_fs/HPCKit/25.3.30/kml/bisheng-0303/include]
+        ignore line: [ /pacific_fs/wxy/app/pytorch/third_party/sleef/install/include]
+        ignore line: [ .]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1/aarch64-linux-gnu]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../include/c++/10.3.1/backward]
+        ignore line: [ /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_84acc]
+        ignore line: [/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84acc.dir/link.txt --verbose=1]
+        ignore line: [BiSheng Enterprise 4.1.0.B204 clang version 17.0.6 (a005764761b0)]
+        ignore line: [Target: aarch64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/aarch64-linux-gnu/10.3.1]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" -pie -EL --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_84acc /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crti.o /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/clang_rt.crtbegin.o -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib/aarch64-unknown-linux-gnu -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/10.3.1 -L/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib -L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib64 -L/lib -L/usr/lib -L/pacific_fs/wxy/app/pytorch/third_party/sleef/install/lib64 -L. -v CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/libclang_rt.builtins.a -lc /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/libclang_rt.builtins.a /pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/clang_rt.crtend.o /usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_84acc] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/Scrt1.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crti.o]
+          arg [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/clang_rt.crtbegin.o] ==> obj [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/clang_rt.crtbegin.o]
+          arg [-L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib/aarch64-unknown-linux-gnu] ==> dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib/aarch64-unknown-linux-gnu]
+          arg [-L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu] ==> dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/10.3.1] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/10.3.1]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib] ==> dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib]
+          arg [-L/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib64] ==> dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-L/pacific_fs/wxy/app/pytorch/third_party/sleef/install/lib64] ==> dir [/pacific_fs/wxy/app/pytorch/third_party/sleef/install/lib64]
+          arg [-L.] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_84acc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/libclang_rt.builtins.a] ==> lib [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/libclang_rt.builtins.a]
+          arg [-lc] ==> lib [c]
+          arg [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/libclang_rt.builtins.a] ==> lib [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/libclang_rt.builtins.a]
+          arg [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/clang_rt.crtend.o] ==> obj [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/clang_rt.crtend.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        remove lib [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/libclang_rt.builtins.a]
+        remove lib [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/libclang_rt.builtins.a]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/Scrt1.o] ==> [/usr/lib64/Scrt1.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib/aarch64-unknown-linux-gnu] ==> [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/aarch64-unknown-linux-gnu]
+        collapse library dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu] ==> [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/10.3.1] ==> [/usr/lib/gcc/aarch64-linux-gnu/10.3.1]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/10.3.1/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib] ==> [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib]
+        collapse library dir [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/bin/../lib64] ==> [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        collapse library dir [/pacific_fs/wxy/app/pytorch/third_party/sleef/install/lib64] ==> [/pacific_fs/wxy/app/pytorch/third_party/sleef/install/lib64]
+        implicit libs: [stdc++;m;c]
+        implicit objs: [/usr/lib64/Scrt1.o;/usr/lib64/crti.o;/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/clang_rt.crtbegin.o;/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu/clang_rt.crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/aarch64-unknown-linux-gnu;/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib/clang/17/lib/aarch64-unknown-linux-gnu;/usr/lib/gcc/aarch64-linux-gnu/10.3.1;/usr/lib64;/lib64;/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib;/pacific_fs/HPCKit/25.3.30/compiler/bisheng-0206/lib64;/lib;/usr/lib;/pacific_fs/wxy/app/pytorch/third_party/sleef/install/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/pacific_fs/anaconda3/envs/DiT_DNN/lib/python3.12/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.37
+...

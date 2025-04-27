@@ -1,0 +1,16 @@
+[[34m2025-04-12 20:12:47[0m] Experiment directory created at checkpoints/070-DiT-L-2
+[[34m2025-04-12 20:12:47[0m] INFO:: batch_size=112,debug=False,pre_latent=True, world_size=16, dp_size=16, tp_size=1.
+[[34m2025-04-12 20:13:13[0m] DiT Parameters: 458,102,816
+[[34m2025-04-12 20:13:13[0m] Dataset contains 10,000 images (/pacific_ext/wxy/DiT_dataset/imagenet-mini-latents-1)
+[[34m2025-04-12 20:13:14[0m] Training for 500 epochs...
+[[34m2025-04-12 20:13:14[0m] Beginning epoch 0...
+[[34m2025-04-12 20:14:11[0m] (step=0000001) Train Loss: 1.0105, Train Sec/Steps:52.65s, Steps/Sec: 0.02
+[[34m2025-04-12 20:14:34[0m] (step=0000002) Train Loss: 0.9976, Train Sec/Steps:22.39s, Steps/Sec: 0.04
+[[34m2025-04-12 20:15:00[0m] (step=0000003) Train Loss: 0.9919, Train Sec/Steps:25.79s, Steps/Sec: 0.04
+[[34m2025-04-12 20:15:23[0m] (step=0000004) Train Loss: 0.9805, Train Sec/Steps:23.09s, Steps/Sec: 0.04
+[[34m2025-04-12 20:15:46[0m] (step=0000005) Train Loss: 0.9650, Train Sec/Steps:23.34s, Steps/Sec: 0.04
+[[34m2025-04-12 20:16:10[0m] (step=0000006) Train Loss: 0.9394, Train Sec/Steps:23.56s, Steps/Sec: 0.04
+[[34m2025-04-12 20:16:33[0m] (step=0000007) Train Loss: 0.9113, Train Sec/Steps:23.17s, Steps/Sec: 0.04
+[[34m2025-04-12 20:16:56[0m] (step=0000008) Train Loss: 0.8820, Train Sec/Steps:23.24s, Steps/Sec: 0.04
+[[34m2025-04-12 20:17:20[0m] (step=0000009) Train Loss: 0.8475, Train Sec/Steps:23.44s, Steps/Sec: 0.04
+[[34m2025-04-12 20:17:43[0m] (step=0000010) Train Loss: 0.7968, Train Sec/Steps:23.14s, Steps/Sec: 0.04

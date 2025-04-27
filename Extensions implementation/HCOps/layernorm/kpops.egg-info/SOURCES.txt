@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+kpops.egg-info/PKG-INFO
+kpops.egg-info/SOURCES.txt
+kpops.egg-info/dependency_links.txt
+kpops.egg-info/requires.txt
+kpops.egg-info/top_level.txt
+src/kpops/__init__.py
+src/kpops/_kpops/lib/libkpprim.so
+test/test.py
+test/test_layernorm.py

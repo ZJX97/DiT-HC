@@ -1,0 +1,13 @@
+/pacific_ext/wxy/kpops_mul/build/CMakeFiles/edit_cache.dir
+/pacific_ext/wxy/kpops_mul/build/CMakeFiles/rebuild_cache.dir
+/pacific_ext/wxy/kpops_mul/build/CMakeFiles/list_install_components.dir
+/pacific_ext/wxy/kpops_mul/build/CMakeFiles/install.dir
+/pacific_ext/wxy/kpops_mul/build/CMakeFiles/install/local.dir
+/pacific_ext/wxy/kpops_mul/build/CMakeFiles/install/strip.dir
+/pacific_ext/wxy/kpops_mul/build/lib/CMakeFiles/kpprim.dir
+/pacific_ext/wxy/kpops_mul/build/lib/CMakeFiles/edit_cache.dir
+/pacific_ext/wxy/kpops_mul/build/lib/CMakeFiles/rebuild_cache.dir
+/pacific_ext/wxy/kpops_mul/build/lib/CMakeFiles/list_install_components.dir
+/pacific_ext/wxy/kpops_mul/build/lib/CMakeFiles/install.dir
+/pacific_ext/wxy/kpops_mul/build/lib/CMakeFiles/install/local.dir
+/pacific_ext/wxy/kpops_mul/build/lib/CMakeFiles/install/strip.dir

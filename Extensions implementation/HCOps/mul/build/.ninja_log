@@ -1,0 +1,5 @@
+# ninja log v5
+4	26811	1741542226975179812	lib/CMakeFiles/kpprim.dir/ops/vector_add/torch_impl.cpp.o	262e8c4652620c83
+3	160	1741542200354617364	lib/CMakeFiles/kpprim.dir/ops/vector_add/op.cpp.o	4a40388d10e71105
+27422	27903	1741542228089414289	lib/libkpprim.so	c030cf3be0c21d49
+2	27421	1741542227560317391	lib/CMakeFiles/kpprim.dir/ops/torch_bind.cpp.o	613513ad9cf0e579
